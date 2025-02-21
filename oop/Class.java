@@ -16,7 +16,7 @@ public class Class {
     public void setId(int id) {
         this.id = id;
     }
-
+    
     public String getColor() {
         return color;
     }
