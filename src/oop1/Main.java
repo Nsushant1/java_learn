@@ -5,7 +5,7 @@ public class Main {
         Government s = new Subsidy("Gas", 1910);
         Government i = new Internal("Mobile Phone", 17240);
         Government im = new Import("Car", 2000000);
-        
+
         System.out.println("Tax Amount :");
         System.out.println(s.getName() + ": Rs." + s.calculateTax());
         System.out.println(i.getName() + ": Rs." + i.calculateTax());

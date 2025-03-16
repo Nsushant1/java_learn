@@ -1,9 +1,9 @@
 package oop1;
 
-public class Internal extends Government {
+public class Internal extends Tax {
+    //!initialize constructor
     public Internal(String name, double price) {
-        super(name, price);
-        this.taxRate=0.13;
+       super(name, price);
     }
 
     @Override

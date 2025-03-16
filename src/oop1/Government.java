@@ -3,8 +3,8 @@ package oop1;
 public abstract class Government {
     private String name;
     private double price;
-    double taxRate;
     double importTaxRate;
+    double vatRate = 0.13;
 
     public Government(String name, double price) {
         this.name = name;

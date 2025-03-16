@@ -1,9 +1,8 @@
 package oop1;
 
-public class Import extends Government {
+public class Import extends Tax{
     public Import(String name, double price) {
         super(name, price);
-        this.taxRate=0.13;
         this.importTaxRate=0.05;
     }
 
