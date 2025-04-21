@@ -3,11 +3,8 @@ package basics;
 public class Student {
 
     int id;
-
     int marks1;
-
     int marks2;
-
     int average;
 
     public int sum() {
